@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "octref.vetur",
+    "johnsoncodehk.volar",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind",
+    "austenc.tailwind-docs",
+    "bourhaouta.tailwindshades",
+    "xabikos.javascriptsnippets",
+    "christian-kohler.path-intellisense"
+  ]
+}
