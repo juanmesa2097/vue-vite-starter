@@ -6,8 +6,8 @@ module.exports = {
     node: true,
   },
   extends: [
-    "plugin:vue/vue3-recommended",
     "eslint:recommended",
+    "plugin:vue/vue3-recommended",
     "@vue/typescript/recommended",
     "@vue/prettier",
     "@vue/prettier/@typescript-eslint",
@@ -16,6 +16,12 @@ module.exports = {
     ecmaVersion: 2021,
   },
   plugins: [],
+  globals: {
+    defineProps: "readonly",
+    defineEmits: "readonly",
+    defineExpose: "readonly",
+    withDefaults: "readonly",
+  },
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
